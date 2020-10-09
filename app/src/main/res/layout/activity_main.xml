@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+
+    tools:ignore="InvalidId">    <!--android:background="@drawable/background">-->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:fontFamily="monospace"
+        android:text="Movie Search Engine"
+        android:textColor="#673AB7"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="cb1OnClick"
+        android:text="Movie Title"
+        android:textColor="#ff5100"
+        android:textSize="10pt" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <CheckBox
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cb2OnClick"
+        android:text="Release year"
+        android:textSize="10pt"
+        android:textColor="#ff5100"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <CheckBox
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cb3OnClick"
+        android:text="Geners"
+        android:textSize="10pt"
+        android:textColor="#ff5100"
+        android:fontFamily="sans-serif-medium"></CheckBox>
+
+
+    <Spinner
+      android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+
+
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchOnClick"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="116dp"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#2196F3"
+        android:textSize="12pt" />
+
+</LinearLayout>

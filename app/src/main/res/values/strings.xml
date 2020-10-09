@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Saeed</string>
+    <string-array name="Geners">
+        <item>Comedy</item>
+        <item>Romance</item>
+        <item>Horror</item>
+        <item>Action</item>
+        <item>Drama</item>
+    </string-array>
+</resources>
